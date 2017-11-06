@@ -1,22 +1,9 @@
-# react-ui-tree
-[![Build Status](https://travis-ci.org/pqx/react-ui-tree.svg)](https://travis-ci.org/pqx/react-ui-tree)
-[![npm](https://img.shields.io/npm/v/react-ui-tree.svg)](https://www.npmjs.com/package/react-ui-tree)
-[![npm](https://img.shields.io/npm/dm/react-ui-tree.svg)](https://www.npmjs.com/package/react-ui-tree)
+# yb-react-ui-tree
 
-React tree component
-
-This project was initially developed for a webpage builder. It maintains an internal tree structure within the component through [js-tree](https://github.com/wangzuo/js-tree).
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/FePD8SysdYMQPkxMdAFPzUxj/pqx/react-ui-tree'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/FePD8SysdYMQPkxMdAFPzUxj/pqx/react-ui-tree.svg' />
-</a>
-
-### Demo
-[https://pqx.github.io/react-ui-tree](https://pqx.github.io/react-ui-tree)
-
+Forked from [react-ui-tree](https://github.com/pqx/react-ui-tree), has changes applied from [Sean's fork](https://github.com/mockeryjones/yb-ui-tree) for removal of drag and drop.
 ### Installation
 ``` sh
-npm install react-ui-tree --save
+npm install yb-react-ui-tree --save
 ```
 
 ### Usage

@@ -1,5 +1,5 @@
 {
-  "name": "react-ui-tree",
+  "name": "yb-react-ui-tree",
   "version": "3.1.0",
   "description": "React tree component",
   "main": "index.js",
@@ -9,14 +9,18 @@
     "deploy": "rm -rf .publish && npm run build && github-pages-deploy",
     "pretest": "npm run build",
     "prepublish": "npm test",
-    "test": "mocha"
+    "test": "mocha",
+    "ybpublish": "publish"
   },
   "github-pages-deploy": {
     "src": "example"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pqx/react-ui-tree.git"
+    "url": "https://github.com/yieldbot/yb-react-ui-tree.git"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.yb0t.cc/artifactory/api/npm/yieldbot-npm"
   },
   "keywords": [
     "react",
@@ -26,9 +30,9 @@
   "author": "Wang Zuo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pqx/react-ui-tree/issues"
+    "url": "https://github.com/yieldbot/yb-react-ui-tree/issues"
   },
-  "homepage": "https://github.com/pqx/react-ui-tree",
+  "homepage": "https://github.com/yieldbot/yb-react-ui-tree",
   "peerDependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
@@ -49,7 +53,8 @@
     "react-dom": "^15.6.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.5.1"
+    "webpack-dev-server": "^2.5.1",
+    "yb-publish": "^0.3.3"
   },
   "dependencies": {
     "classnames": "^2.2.5",
