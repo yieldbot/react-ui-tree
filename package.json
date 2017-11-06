@@ -4,8 +4,9 @@
   "description": "React tree component",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf node_modules/ dist/",
     "start": "webpack-dev-server --port=8080",
-    "build": "npm run install && make",
+    "build": "npm install && make",
     "deploy": "rm -rf .publish && npm run build && github-pages-deploy",
     "pretest": "npm run build",
     "prepublish": "npm test",
